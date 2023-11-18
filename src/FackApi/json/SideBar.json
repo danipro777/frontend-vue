@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Dashboard",
+    "name": "sidebar.admin",
+    "is_heading": true,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": ""
+  },
+  {
+    "title": "Hospital Dashboard 1",
+    "name": "sidebar.dashboard2",
+    "is_heading": false,
+    "is_active": false,
+    "link": {
+      "name": "dashboard.home-1"
+    },
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-home-8-fill"
+  },
+  {
+    "title": "Ejercicio",
+    "name": "Ejercicio en clase",
+    "is_heading": false,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-home-3-fill",
+    "link": {
+      "name" : "alumnos.ejercicio"
+    }
+  },
+  {
+    "title": "Autos",
+    "name": "Autos",
+    "is_heading": false,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-steering-2-line",
+    "link": {
+      "name" : "autos.autos"
+    }
+  },
+  {
+    "title": "Apps",
+    "name": "Apps",
+    "is_heading": false,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-steering-2-line",
+    "link": {
+      "name" : "apps.apps"
+    }
+  },
+  {
+    "title": "Librerias",
+    "name": "Librerias",
+    "is_heading": false,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-steering-2-line",
+    "link": {
+      "name" : "librerias.librerias"
+    }
+  },
+  {
+    "title": "Practica final",
+    "name": "Practicas",
+    "is_heading": false,
+    "is_active": false,
+    "class_name": "",
+    "is_icon_class": true,
+    "icon": "ri-steering-2-line",
+    "link": {
+      "name" : "practicas.practicas"
+    }
+  }
+]
