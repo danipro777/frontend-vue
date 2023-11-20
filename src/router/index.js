@@ -108,7 +108,18 @@ import Librerias from '../views/App/Librerias/Librerias.vue'
 // practica
 import Practicas from '../views/App/Practicas/Practicas.vue'
 
+import Tareas from '../views/App/Tareas/Tareas.vue'
+
 Vue.use(VueRouter)
+
+const TareasRoutes = (prop, mode) => [
+  {
+    path: 'tareas',
+    name: prop + '.tareas',
+    meta: { dark: mode, auth: true, name: 'tareas' },
+    component: Tareas
+  }
+]
 
 const PracticasRoutes = (prop, mode) => [
   {
@@ -640,6 +651,13 @@ const pluginsChildRoute = (prop, mode = false) => [
 ]
 
 const routes = [
+  {
+    path: '/tareas',
+    name: 'tareas',
+    component: Layout1,
+    meta: { auth: true },
+    children: TareasRoutes('tareas')
+  },
   {
     path: '/practicas',
     name: 'practicas',
